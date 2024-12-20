@@ -1,0 +1,126 @@
+.header{
+    background-color: #c3c9d4; height: 3rem; justify-content: center;
+    display: flex;
+}
+.header-center{
+    width: 38rem; display: flex;
+    align-items: center;
+}
+.charts-container{
+    height: 49rem; width: 38rem; display: flex;
+    margin-left: auto; margin-right: auto; flex-direction: column;
+    justify-content: space-around;
+}
+.charts-sort{
+    height: 3rem; display: flex;
+    align-items: center; gap: 5px;   
+}
+.charts-up{
+    background: rgb(6,148,68); height: 6rem; display: flex; border-radius: 5px;
+    background: linear-gradient(90deg, rgba(6,148,68,1) 20%,
+    rgba(3,114,190,1) 86%, rgba(0,86,255,1) 97%);
+}
+.charts-new{
+    background: rgb(153,3,190);
+    background: linear-gradient(90deg, rgba(153,3,190,1) 0%, rgba(119,9,9,1) 68%);
+    height: 6rem; display: flex; border-radius: 5px;
+}
+.charts-down{
+    height: 6rem; display: flex; border-radius: 5px;
+    background: rgb(14,39,93);
+    background: linear-gradient(90deg, rgba(14,39,93,1) 0%, rgba(86,9,119,1) 54%);
+}
+.charts-rank{
+    width: 12%; border-radius: 5px 0 0 5px; display: flex; 
+    text-align: center; justify-content: center;
+    flex-direction: column;
+}
+.charts-info{
+     width: 53%; display: flex; 
+    flex-direction: column;
+}
+.charts-button{
+     width: 20%; display: flex;
+}
+.charts-img{
+    background-color: blueviolet; width: 15%; border-radius: 0 5px 5px 0; 
+    display: flex;
+}
+.box-logo{
+    width: 25%; height: 75%; 
+    background-image: url(logo.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.box-links{
+    width: 55%; height: 100%;
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+    gap: 20px; color: white;
+}
+.box-buttons{
+    width: 20%; height: 100%; display: flex;
+    align-items: center; justify-content: center;
+}
+.but-box{
+    background-color: purple; width: 90%; height: 60%; color: white;
+    border-radius: 5px; border: none;
+    cursor:pointer;
+}
+a{
+    color: white;
+}
+.redlink{
+    color: red;
+}
+.orangelink{
+    color: orange;
+}
+.but1{
+    background-color: #ffa500; width: 90px; height: 30px; 
+    border: none; border-radius: 5px;
+}
+.but2{
+    background-color: #ff0000; width: 90px; height: 30px; 
+    border: none; border-radius: 5px;
+}
+.but3{ 
+    background-color: #008000; width: 90px; height: 30px; 
+    border: none; border-radius: 5px;
+}
+.but4{
+    background-color: #800080; width: 90px; height: 30px; 
+    border: none; border-radius: 5px;
+}
+button{
+    color: white; font-weight: bold; cursor: pointer;
+}
+.blue-but{
+    width: 122px; height: 30px; background-color: blue;
+    border: none; border-radius: 5px; margin-top: 10px;
+}
+.green-but{
+    width: 122px; height: 30px; background-color: green;
+    border: none; border-radius: 5px; margin-top: 10px;
+}
+.top-text{
+    color: #12365c; text-decoration: none; font-weight: bold;
+    margin-top: 15px;
+}
+.bottom-text{
+    color: #ffffff; font-weight: bold; font-size: 15px;
+}
+.number{
+    color: black; font-size: 25px;
+}
+.class-rank-green{
+    color:#008000; font-weight: bold; font-size: 15px; margin-top: -0.01px;
+}
+.class-rank-yellow{
+    color:#f4a500; font-weight: bold; font-size: 15px; margin-top: -0.01px;
+}
+.class-rank-red{
+    color: #f3181f; font-weight: bold; font-size: 15px; margin-top: -0.01px;
+}
+img{
+    cursor: pointer;
+}
